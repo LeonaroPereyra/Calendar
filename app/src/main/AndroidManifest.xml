@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.calendar.calendar">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Calendar"
+        tools:targetApi="31">
+        <activity
+            android:name=".ActivityRegisterEmployee"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityEmployee"
+            android:exported="false"
+            android:label="@string/title_activity_employee"
+            android:theme="@style/Theme.Calendar.NoActionBar" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.calendar.calendar.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity
+            android:name=".view.MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Calendar.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.ActivityRegisterCredit"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Calendar.NoActionBar" />
+        <activity
+            android:name=".view.ActivitySearchUser"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Calendar.NoActionBar" />
+        <activity
+            android:name=".view.ActivityLogin"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Calendar.NoActionBar" />
+        <activity
+            android:name=".view.ActivitySaveUser"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Calendar.NoActionBar" />
+        <activity
+            android:name=".view.DailyWork"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Calendar.NoActionBar" />
+        <activity
+            android:name=".view.ActivityRegisterPay"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Calendar.NoActionBar" />
+        <activity
+            android:name=".view.MenuUser"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Calendar.NoActionBar" />
+        <activity
+            android:name=".view.ActivityRegisterEmployee"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Calendar.NoActionBar" />
+        <activity
+            android:name=".view.GalleryActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Calendar.NoActionBar" />
+        <activity
+            android:name=".view.ActivityEmployee"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Calendar.NoActionBar" />
+    </application>
+
+</manifest>

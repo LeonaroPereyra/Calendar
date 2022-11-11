@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Calendar</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="name_user">Nombre</string>
+    <string name="last_name">Apellidos</string>
+    <string name="aka">Alias</string>
+    <string name="curp">CURP</string>
+    <string name="pagosuggesgtion">Pago sugerido</string>
+    <string name="noId">Numero de INE</string>
+    <string name="saveUser">Guardar</string>
+    <string name="takePicture">Foto</string>
+    <string name="searchUser">Buscar por CURP</string>
+    <string name="searchDate">Buscar por fecha</string>
+    <string name="searchName">Buscar por Nombre</string>
+    <string name="newUser">Nuevo</string>
+    <string name="noTarjeta">Numero Tarjeta</string>
+    <string name="interes">Interes por dia</string>
+    <string name="monto">Monto final</string>
+    <string name="Abono">Abono</string>
+    <string name="monto_init">Monto Inicial</string>
+    <string name="user">Usuario</string>
+    <string name="acceder">Acceder</string>
+    <string name="required">Campo obligatorio</string>
+    <string name="malformat">Validar formato</string>
+    <string name="dateEnd">Fecha conclusion de Pago</string>
+    <string name="save">Guardar</string>
+    <string name="title_activity_employee">ActivityEmployee</string>
+    <string name="inactived">Usuario Inactivo</string>
+    <string name="error_login">Error</string>
+    <string name="employee">Empleado</string>
+    <string name="not_gps">No se pudo obtener UbicAcion</string>
+    <string name="userName">User Name</string>
+    <string name="type">Tipo</string>
+    <string name="password">Password</string>
+    <string name="actived">Activo</string>
+    <string name="save_employe">Empleado Guardado</string>
+    <string name="status">Estatus de Prestamo</string>
+    <string name="statusText">Estatus</string>
+    <string name="dateIniT">Fecha Inicio</string>
+    <string name="dateend">Fecha Fin</string>
+    <string name="dateSearch">Fecha Buscar</string>
+    <string name="empty">No Resultados</string>
+    <string name="cobro">Cobro por Dia</string>
+    <string name="responsable">Responsable</string>
+    <string name="NoAbono">NoAbono</string>
+    <string name="pagado">Pagado</string>
+    <string name="totalPrestado">Total Prestado</string>
+    <string name="totalInteres">Total Interes</string>
+    <string name="totalGanancianeto">Ganancia Total</string>
+    <string name="faltante">Faltante</string>
+    <string name="dias">DIas</string>
+    <string name="telefono">Numero Telefono</string>
+    <string name="calcular">Calcular Pago</string>
+    <string name="totalPagado">Total Pagado</string>
+    <string name="update">Actualizar</string>
+
+</resources>

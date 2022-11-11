@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnWork"
+        style="@style/textStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_custom_top"
+        android:drawableStart="@drawable/money"
+        android:drawableEnd="@drawable/money"
+        android:drawableTint="@color/black"
+        android:text="Cobros" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnUser"
+        style="@style/textStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_custom_top"
+        android:drawableStart="@drawable/user"
+        android:drawableEnd="@drawable/user"
+        android:text="Usarios" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnEmployee"
+        style="@style/textStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_custom_top"
+        android:drawableStart="@drawable/empleado"
+        android:drawableEnd="@drawable/empleado"
+        android:text="@string/employee" />
+
+</LinearLayout>
